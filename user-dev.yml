@@ -1,11 +1,11 @@
 # 配置tomcat端口号
 server:
-  port: ${port:9001}
+  port: 9001
 
 # 配置数据源
 spring:
   application:
-    name: user-service # (应用名称) 服务id
+    name: user # (应用名称) 服务id
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://192.168.3.107:3306/ry-cloud?characterEncoding=utf8&useSSL=false
